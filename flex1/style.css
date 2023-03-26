@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.banner-section{
+    width: 100%;
+    height: 600px;
+    background: url(img/banner.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+.social-media{
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    
+    position: sticky;
+    top: 20px;
+    
+}
+
+.social-media a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: 20px 5px;
+    
+    
+}
+
+.social-media i{
+    display: inline-block;
+    width: 35px;
+    padding: 5px 5px;
+    background: white;
+    clip-path:circle()
+    
+}
+
+.social-media a i:hover{
+    background: black;
+    color: white;
+    transition: 1s;
+}
+
+.nav-menu{
+    width: 80%;
+    height: auto;
+    display: flex;
+    background: white;
+    margin: 50px 130px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 10px;
+    
+}
+
+.menu{
+    display: inline-block;
+    width: 60%;
+    padding-top: 20px;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h3{
+    font-size: 30px;
+    display: inline-block;
+    color:#EC523F ;
+    padding: 30px 50px;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 20px 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.menu ul li a:hover{
+    color: #EC523F ;
+    
+}
+
+.menu ul li a:active{
+    color: #EC523F ;
+    
+}
+
+.banner-heading{
+    width: 100%;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.banner-heading h1{
+    color: aliceblue;
+    font-size: 35px;
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+
+.banner-heading h3{
+    color: aliceblue;
+    font-size: 25px;
+    padding: 20px 20px; 
+}
+
+.banner-btn{
+    text-align: center;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.banner-heading a{
+    background: #EC523F;
+    color: aliceblue;
+    font-size: 15px; 
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.Service-section{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.Service-section h1{
+    margin-bottom: 20px;
+    color:#444444 ;
+}
+.Service-section h3{
+    font-size: 20px;
+    padding-top: 10px;
+    color:#444444;
+}
+.Service-section h4{
+    font-size: 25px;
+    padding-top: 10px;
+    color:#f1ecec ;
+}
+
+.Service-section p{
+    font-size: 15px;
+    padding-top: 10px;
+    color:#f1ecec ;
+}
+
+.row{
+    width: 80%;
+    text-align: center;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    margin: 60px 130px;
+}
+
+.Service1{
+    width: 20%;
+    background: #1ABC9C;
+    padding: 20px 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.Service-overlay1{
+    position: absolute;
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #EC523F;
+    visibility: hidden;
+    transition: 2s all;
+}
+
+.Service-overlay1 i{
+    color: #fff;
+	font-size: 50px;
+    margin: 90px 20px;
+}
+
+.Service1:hover .Service-overlay1{
+    top: 0px;
+	left: 0px;
+	visibility: visible;
+}
+
+.Service2{
+    width: 20%;
+    background: #E67E22;
+    padding: 20px 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.Service-overlay2{
+    position: absolute;
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #EC523F;
+    visibility: hidden;
+    transition: 2s all;
+}
+
+.Service-overlay2 i{
+    color: #fff;
+	font-size: 50px;
+    margin: 90px 20px;
+}
+
+.Service2:hover .Service-overlay2{
+    top: 0px;
+	left: 0px;
+	visibility: visible;
+}
+
+.Service3{
+    width: 20%;
+    background: #3498DB;
+    padding: 20px 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.Service-overlay3{
+    position: absolute;
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #EC523F;
+    visibility: hidden;
+    transition: 2s all;
+}
+
+.Service-overlay3 i{
+    color: #fff;
+	font-size: 50px;
+    margin: 90px 20px;
+}
+
+.Service3:hover .Service-overlay3{
+    top: 0px;
+	left: 0px;
+	visibility: visible;
+}
+
+.Service4{
+    width: 20%;
+    background: #2ECC71;
+    padding: 20px 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.Service-overlay4{
+    position: absolute;
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #EC523F;
+    visibility: hidden;
+    transition: 2s all;
+}
+
+.Service-overlay4 i{
+    color: #fff;
+	font-size: 50px;
+    margin: 90px 20px;
+}
+
+.Service4:hover .Service-overlay4{
+    top: 0px;
+	left: 0px;
+	visibility: visible;
+}
+
+.portfolio-section{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+    justify-content: space-between;
+    
+
+}
+
+.portfolio-section h1{
+    font-size: 25px;
+    padding-top: 10px;
+    color:#444444;
+}
+
+.portfolio-section h4{
+    font-size: 20px;
+    padding-top: 10px;
+    color:#444444;
+}
+
+.portfolio-img img{
+    width: 280px;
+    height:300px;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    
+}
+
+
+.image-overlay{
+    position: absolute;
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #EC523F;
+    visibility: hidden;
+    transition: 2s all;
+}
+
+.team{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+    justify-content: space-between;
+     
+}
+
+.team-image{
+    display: flex;
+    padding: 20px 50px;
+    margin-top: 30px;
+}
+
+.team-image img{
+    width: 280px;
+    height:250px;
+    margin: 20px 20px;
+    padding: 0px 10px;
+    clip-path:circle()
+    
+}
+
+
+
